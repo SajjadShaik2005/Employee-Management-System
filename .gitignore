@@ -1,0 +1,40 @@
+# ===== Backend (Maven / Spring Boot) =====
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+!backend/.mvn/wrapper/maven-wrapper.properties
+backend/*.log
+backend/*.iml
+backend/.idea/
+backend/*.iws
+backend/*.ipr
+
+# H2 database files (if file-based)
+*.db
+*.mv.db
+*.trace.db
+
+# ===== Frontend (Node / Vite) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.*.local
+
+# ===== General =====
+.DS_Store
+Thumbs.db
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDEs
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.vscode/settings.json
